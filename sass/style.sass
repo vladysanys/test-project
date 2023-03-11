@@ -1,0 +1,54 @@
+body
+  font-family: 'Roboto', sans-serif
+.back
+  position: relative
+  z-index: 0
+.first-section
+  position: absolute
+  z-index: 1
+  top: 270px
+  left: 650px
+  width: 620px
+  height: 400px
+.buttons
+  display: flex
+  position: relative
+  flex-direction: column
+  width: 250px
+  height: 400px
+  left: 59%
+.answer
+  height: 100px
+  width: 280px
+  text-decoration: none
+  outline: none
+  background-color: #ffffff
+  border: 1px solid #cdcdcd
+  &:hover
+    background-color: #dbdbdb
+  &:last-child
+    border-bottom-left-radius: 20px
+    border-bottom-right-radius: 20px
+  &:first-child
+    border-top-left-radius: 20px
+    border-top-right-radius: 20px
+.text-question
+  position: absolute
+  font-size: 30px
+.text-answer
+  font-size: 25px
+.finaly-box
+  position: absolute
+  width: 700px
+  height: 400px
+  // top: 0px
+  border: 1px solid #b3b3df
+  z-index: 2
+  margin: 0 auto
+  position: absolute              /* 2 */
+  top: 270px                   /* 3 */
+  transform: translate(-50%, 0)
+  left: 50%
+  border-radius: 20px
+  background-color: #ceceff
+  transition: 1s
